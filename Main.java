@@ -19,7 +19,21 @@ public class Main {
 
         String [] colors={"a"};
 
-        System.out.println(feladat01(colors));
+        System.out.println(feladat01(colors));//0
+
+        String [] colors1={""};
+
+        System.out.println(feladat01(colors1));//0
+
+        String [] colors2={"a","b",};
+
+        System.out.println(feladat01(colors2));//0
+
+        String [] colors3={"a","b","c"};
+
+        System.out.println(feladat01(colors3));//0
+
+
 
     }
 }
